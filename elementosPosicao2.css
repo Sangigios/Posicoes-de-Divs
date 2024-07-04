@@ -1,0 +1,118 @@
+
+
+.conteiner{
+    background-image: "URL C:\Users\Administrador\OneDrive\Documentos\Exercícios de programação\Exercícios de Internet\Posições de Divs";
+    width: 400px;
+    height:500px;
+    border: solid 5px;
+    position: relative;
+}
+
+h1 {
+    background-color: yellow;
+    width: 400px;
+    text-align: center;
+    border: solid 5px;
+    color: black;
+}
+
+
+.conteiner img{
+    width: 100%;
+}
+
+.topoEsquerda{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    border: solid 2px red;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .topoEsquerda img{
+        width: 100%;
+    }
+
+.topoDireita{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    border: solid 2px red;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topoDireita img{
+    width: 100%;
+}
+
+.centro{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: blue;
+    border: solid 2px red;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.centro img{
+   width: 100%;
+}
+
+.baixoDireita{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    border: solid 2px red;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.baixoDireita img{
+    width: 100%;
+}
+
+.baixoEsquerda{
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    border: solid 2px red;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.baixoEsquerda img{
+    width: 100%;
+}
